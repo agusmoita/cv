@@ -7,28 +7,12 @@ body {
 table i.fa {
     font-size: 1.6rem;
 }
-ul.skills-list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-    padding: 0;
+table tr:first-child td {
+    border: none;
 }
-ul.skills-list li {
-    min-width: 25%;
-    margin: .5rem;
-    text-align: center;
-}
-table.table {
-    margin-bottom: 0 !important;
-}
-.item {
-    margin-bottom: .7rem;
-}
-img.byn {
-    filter: grayscale(100%);
+#foto {
+    border: 1px #ccc solid;
+    padding: 8px;
 }
 #mi-nombre {
     font-family: 'Roboto Mono', monospace;
@@ -41,12 +25,31 @@ img.byn {
 #mi-nombre, .h5 {
     font-weight: 500;
 }
+table.table {
+    margin-bottom: 0 !important;
+}
+ul.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    padding: 0;
+}
+ul.skills-list li {
+    min-width: 25%;
+    margin: .5rem;
+    text-align: center;
+}
+img.byn {
+    filter: grayscale(100%);
+}
+.item {
+    margin-bottom: .7rem;
+}
 .h5 {
     font-size: 1.25rem;
-}
-#foto {
-    border: 1px #ccc solid;
-    padding: 8px;
 }
 .subtitulo {
     font-weight: bold;
