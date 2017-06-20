@@ -1,0 +1,54 @@
+html {
+    font-size: 13.2px;
+}
+body {
+    margin: 2rem .9rem;
+}
+table i.fa {
+    font-size: 1.6rem;
+}
+ul.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    padding: 0;
+}
+ul.skills-list li {
+    min-width: 25%;
+    margin: .5rem;
+    text-align: center;
+}
+table.table {
+    margin-bottom: 0 !important;
+}
+.item {
+    margin-bottom: .7rem;
+}
+img.byn {
+    filter: grayscale(100%);
+}
+#mi-nombre {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: .9rem;
+    font-size: 2.5rem;
+}
+#mi-nombre + hr {
+    margin-bottom: 1rem;
+}
+#mi-nombre, .h5 {
+    font-weight: 500;
+}
+.h5 {
+    font-size: 1.25rem;
+}
+#foto {
+    border: 1px #ccc solid;
+    padding: 8px;
+}
+.subtitulo {
+    font-weight: bold;
+    font-style: italic;
+}
