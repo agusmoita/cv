@@ -4,7 +4,7 @@ html {
 body {
     margin: 1rem .9rem;
 }
-/*table i.fa, ul.hobbies-list li */i.fa {
+i.fa {
     font-size: 1.6rem;
 }
 table tr:first-child td {
@@ -28,7 +28,7 @@ table tr:first-child td {
 table.table {
     margin-bottom: 0 !important;
 }
-ul.skills-list, ul.hobbies-list {
+ul.skills-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -39,11 +39,6 @@ ul.skills-list, ul.hobbies-list {
 }
 ul.skills-list li {
     min-width: 23%;
-    margin: .5rem;
-    text-align: center;
-}
- ul.hobbies-list li {
-    min-width: 10%;
     margin: .5rem;
     text-align: center;
 }
