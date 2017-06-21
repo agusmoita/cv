@@ -1,4 +1,4 @@
-$(function () {
+window.onload = function () {
     var year = 1994
     var month = 9
     var day = 6
@@ -8,5 +8,5 @@ $(function () {
         (today.getMonth() < month || 
         (today.getMonth() == month && today.getDate() < day)) 
         ? --age : age
-    $('#edad').text(age)
-})
+    document.getElementById('edad').innerHTML = age
+}
