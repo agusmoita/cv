@@ -11,7 +11,8 @@ table tr:first-child td {
     border: none;
 }
 #foto {
-    border: 1px #ccc solid;
+    /*filter: grayscale(100%);*/
+    border: 1.4px #ccc solid;
     padding: 8px;
 }
 #mi-nombre {
@@ -38,8 +39,8 @@ ul.skills-list {
     padding: 0;
 }
 ul.skills-list li {
-    min-width: 23%;
-    margin: .5rem;
+    min-width: 26%;
+    margin: 1% 0;
     text-align: center;
 }
 .card-header {
