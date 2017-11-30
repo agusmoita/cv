@@ -53,5 +53,13 @@ ul.skills-list li {
 }
 .subtitulo {
     font-weight: bold;
+}
+
+.subtitulo, .detalle {
     font-style: italic;
+    margin: 0;
+}
+
+.descripcion > p:last-child {
+    margin-bottom: 1.1rem;
 }
